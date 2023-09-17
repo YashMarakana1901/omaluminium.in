@@ -1,0 +1,64 @@
+			@font-face {
+				font-family: 'droid-sans';
+				font-style: normal;
+				src: url('170111080513Droid-Sans.eot');
+				src: local('droid-sans'), url('170111080513Droid-Sans.eot') format('embedded-opentype'), url('170111080513Droid-Sans.woff') format('woff');
+			}
+            
+            .droid-sans{font-family: 'droid-sans' !important;}
+            
+					@font-face {
+				font-family: 'droid-sans-bold';
+				font-style: normal;
+				src: url('170111080536Droid-Sans-Bold.eot');
+				src: local('droid-sans-bold'), url('170111080536Droid-Sans-Bold.eot') format('embedded-opentype'), url('170111080536Droid-Sans-Bold.woff') format('woff');
+			}
+            
+            .droid-sans-bold{font-family: 'droid-sans-bold' !important;}
+            
+					@font-face {
+				font-family: 'futura-medium';
+				font-style: normal;
+				src: url('170111080936Futura-Medium.eot');
+				src: local('futura-medium'), url('170111080936Futura-Medium.eot') format('embedded-opentype'), url('170111080936Futura-Medium.woff') format('woff');
+			}
+            
+            .futura-medium{font-family: 'futura-medium' !important;}
+            
+						.carousel-inner .q_slide_subtitle span{
+					font-family: 'droid-sans' !important;
+				}
+						.carousel-inner .q_slide_subtitle span > span{
+					font-family: 'droid-sans-bold' !important;
+				}
+						h2, h4, h5{
+					font-family: 'futura-medium' !important;
+				}
+						h1, h3, h5{
+					font-family: 'droid-sans' !important;
+				}
+						a.ubtn-link span.ubtn-text{
+					font-family: 'futura-medium' !important;
+				}
+						h3 > span{
+					font-family: 'droid-sans-bold' !important;
+				}
+						h6{
+					font-family: 'futura-medium' !important;
+				}
+						li.selection-text, li.business-item{
+					font-family: 'futura-medium' !important;
+				}
+						h1, h3{
+					font-family: 'futura-medium' !important;
+				}
+						nav ul li a, ul.sub_menu li a span{
+					font-family: 'futura-medium' !important;
+				}
+						.change-font-droid h3{
+					font-family: 'droid-sans' !important;
+				}
+						.change-font-droid h3 strong{
+					font-family: 'droid-sans-bold' !important;
+				}
+		

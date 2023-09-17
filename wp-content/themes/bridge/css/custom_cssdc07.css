@@ -1,0 +1,31 @@
+
+
+
+nav.popup_menu ul li ul li a {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+}
+nav.popup_menu ul .popup_menu-icon-container {
+    width: 230px !important;
+}
+.footer_top a {
+    color: #fff !important;
+}
+.footer_top a:hover {
+    color: #EE7A23 !important;
+}
+.footer_col3 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 600px) {
+
+    .footer_top .footer_col3 ul li {
+        width: 100%;
+    }
+    nav.popup_menu ul li {
+        margin: 12px !important;
+    }
+
+}

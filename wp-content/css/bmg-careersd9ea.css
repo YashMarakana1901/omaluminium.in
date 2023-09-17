@@ -1,0 +1,20 @@
+.career-section a {
+    font-weight: 600;
+}
+.career-col {
+    margin-bottom: 100px;
+}
+a[href="#"] { /* For hiding empty apply now links */
+    display: none;
+}
+@media(min-width: 1201px){
+    .career-col > .vc_column-inner {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 1200px){
+    .career-col {
+        width: 100%;
+    }
+}

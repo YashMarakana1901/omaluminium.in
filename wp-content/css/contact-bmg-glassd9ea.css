@@ -1,0 +1,136 @@
+.extension-number {
+    color: #EE7A23 !important;
+    margin-bottom: 110px !important;
+}
+.company-directory h6 {
+    text-transform: uppercase;
+}
+@media(max-width: 600px) {
+    .extension-number {
+        margin-bottom: 60px !important;
+    }
+}
+
+/* 1.Reset Styles Contact Form reset fonts, styles, webkit*/
+body .gform_wrapper .chzn-container .chzn-single,
+body .gform_wrapper .chzn-container-single .chzn-single,
+body .gform_wrapper input[type=email],
+body .gform_wrapper input[type=number],
+body .gform_wrapper input[type=password],
+body .gform_wrapper input[type=tel],
+body .gform_wrapper input[type=text],
+body .gform_wrapper input[type=url],
+body .gform_wrapper textarea,
+body .gform_wrapper select {
+    line-height: 1.3em;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background: transparent;
+    -webkit-appearance: none;
+    padding: 7.5px 10px !important;
+    color: #000;
+}
+.gform_wrapper .gform_footer input[type=submit] {
+    border-radius: 0;
+    border: 2px solid #000;
+    background-color: #000 !important;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 35px;
+    width: auto;
+}
+.gform_wrapper .gform_footer input[type=submit]:hover {
+    background-color: transparent !important;
+    color: #000;
+    border-color: #000;
+}
+.gform_wrapper .gform_footer {
+    padding: 0;
+}
+body .gform_wrapper .gform_fields .gfield {
+    margin-bottom: 10px; 
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #000 !important;
+  opacity: .8 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000 !important;
+  opacity: .8 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000 !important;
+  opacity: .8 !important;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #000 !important;
+  opacity: .8 !important;
+}
+.field-full-width input.medium {
+    width: 100% !important;
+}
+label.gfield_label {
+    display: none !important;
+}
+.address-hours{
+    width: 100%;
+}
+ul.address,
+ul.hours {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    margin: 0 0 40px;
+}
+ul.address h6, ul.hours h6 {
+    padding-bottom: 0;
+}
+.gform_wrapper {
+    margin-top: 0;
+}
+@media(max-width: 1440px) {
+    ul.address,
+    ul.hours { 
+      width: 48%;
+    } 
+}
+@media(max-width: 1200px) { 
+    .gform_wrapper .top_label li.gfield.gf_left_half,
+    .gform_wrapper .top_label li.gfield.gf_right_half {
+        width: 100%;
+    }
+}
+@media(max-width: 641px) {
+    .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]) {
+        line-height: inherit;
+        width: 100%;
+    }
+    input#gform_submit_button_1 {
+        text-align: center;
+    }
+    body .gform_wrapper .chzn-container .chzn-single,
+    body .gform_wrapper .chzn-container-single .chzn-single,
+    body .gform_wrapper input[type=email],
+    body .gform_wrapper input[type=number],
+    body .gform_wrapper input[type=password],
+    body .gform_wrapper input[type=tel],
+    body .gform_wrapper input[type=text],
+    body .gform_wrapper input[type=url],
+    body .gform_wrapper textarea,
+    body .gform_wrapper select {
+        padding: 10px 10px !important;
+    }
+}
+@media(max-width: 767px) {
+    ul.address,
+    ul.hours { 
+       width: 100%;
+    } 
+}
